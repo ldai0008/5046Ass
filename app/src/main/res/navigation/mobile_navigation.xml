@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.assignment2.fragment.HomeFragment"
+        android:label="Welcome to Home Page" />
+    <fragment
+        android:id="@+id/nav_pain_data_entry_fragment"
+        android:name="com.example.assignment2.fragment.PainDataEntryFragment"
+        android:label="Pain Data Entry" />
+    <fragment
+        android:id="@+id/nav_daily_record_fragment"
+        android:name="com.example.assignment2.fragment.DailyRecordFragment"
+        android:label="Daily Record" />
+    <fragment
+        android:id="@+id/nav_report_fragment"
+        android:name="com.example.assignment2.fragment.ReportFragment"
+        android:label="Location Report" />
+    <fragment
+        android:id="@+id/nav_steps_report_fragment"
+        android:name="com.example.assignment2.fragment.StepsReportFragment"
+        android:label="Steps Report" />
+    <fragment
+        android:id="@+id/nav_map_fragment"
+        android:name="com.example.assignment2.fragment.MapFragment"
+        android:label="Map" />
+    <fragment
+        android:id="@+id/nav_debug_fragment"
+        android:name="com.example.assignment2.fragment.DebugFragment"
+        android:label="Debug" />
+    <fragment
+        android:id="@+id/nav_pain_weather_report_fragment"
+        android:name="com.example.assignment2.fragment.PainWeatherReportFragment"
+        android:label="PainWeatherReportFragment" />
+</navigation>

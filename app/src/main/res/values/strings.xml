@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TextInputLayout</string>
+    <string name="prompt_userName">userName</string>
+    <string name="prompt_password">password</string>
+    <string name="login">login</string>
+    <string name="to_register">Click here to Register</string>
+    <string name="email_error">Please enter your email!</string>
+    <string name="invalid_email">Email address is invalid!</string>
+    <string name="password_error">Please enter your password!</string>
+    <string name="invalid_password">Enter at least 6 char!</string>
+    <string name="re_login">Click here for login</string>
+    <string name="re_name">Please enter your name!</string>
+    <string name="con_password">Please confirm your password!</string>
+    <string name="error_password">Not equal, please try again!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slider_desc" />
+    <string name="mapbox_access_token">pk.eyJ1IjoibHVpc2ViZWxsYSIsImEiOiJja29sZ3NrZHMxeGM3Mm5wdzZwdm9ncTNyIn0.dq-de0gKwOTg9hAMZ_vYxQ</string>
+
+</resources>
